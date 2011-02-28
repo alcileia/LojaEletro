@@ -6,7 +6,6 @@ from cliente import cliente
 from venda import venda
 from troca import troca
 
-
 class TestProduto(unittest.TestCase):
     def test_cadastrar_produto(self):
         self.produto = produto(1010, "HP", "Scanjet", 654321)
